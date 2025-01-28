@@ -1,0 +1,42 @@
+/* App.css */
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .homepage {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown {
+    margin: 20px 0;
+  }
+  
+  .dropdown select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .generate-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .generate-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .bar-graph {
+    margin-top: 20px;
+  }
+  

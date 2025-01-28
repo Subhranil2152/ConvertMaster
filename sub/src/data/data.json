@@ -1,0 +1,383 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Product 1",
+        "lots": [
+          {
+            "id": 1,
+            "status": "Pass",
+            "samples": [
+              {
+                "id": 1,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 85,
+                    "spec": 90,
+                    "status": "Pass"
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 75,
+                    "spec": 70,
+                   "status": "Pass"
+
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 65,
+                    "spec": 70,
+                    "status": "Pass"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 80,
+                    "spec": 85,
+                    "status": "Pass"
+
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 90,
+                    "spec": 85,
+                    "status": "Fail"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 85,
+                    "spec": 80,
+                    "status": "Fail"
+
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "status": "Fail",
+            "samples": [
+              {
+                "id": 1,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 60,
+                    "spec": 70,
+                    "status": "Fail"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 50,
+                    "spec": 65,
+                    "status": "Pass"
+
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 55,
+                    "spec": 60,
+                    "status": "Pass"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 45,
+                    "spec": 50,
+                    "status": "Pass"
+
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 65,
+                    "spec": 70,
+                    "status": "Pass"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 60,
+                    "spec": 65,
+                    "status": "Pass"
+
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "status": "Pass",
+            "samples": [
+              {
+                "id": 1,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 95,
+                    "spec": 90,
+                    "status": "Fail"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 85,
+                    "spec": 80,
+                    "status": "Fail"
+
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 88,
+                    "spec": 85,
+                    "status": "Fail"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 78,
+                    "spec": 75,
+                    "status": "Fail"
+
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 90,
+                    "spec": 85,
+                    "status": "Fail"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 80,
+                    "spec": 75,
+                    "status": "Fail"
+
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Product 2",
+        "lots": [
+          {
+            "id": 1,
+            "status": "Pass",
+            "samples": [
+              {
+                "id": 1,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 92,
+                    "spec": 90,
+                    "status": "Fail"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 85,
+                    "spec": 80,
+                    "status": "Fail"
+
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 80,
+                    "spec": 85,
+                    "status": "Pass"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 70,
+                    "spec": 75,
+                    "status": "Pass"
+
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 88,
+                    "spec": 85,
+                    "status": "Fail"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 78,
+                    "spec": 80,
+                    "status": "Pass"
+
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "status": "Fail",
+            "samples": [
+              {
+                "id": 1,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 55,
+                    "spec": 70,
+                    "status": "Pass"
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 60,
+                    "spec": 65,
+                    "status": "Pass"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 58,
+                    "spec": 70,
+                    "status": "Pass"
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 62,
+                    "spec": 65,
+                    "status": "Pass"
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 59,
+                    "spec": 70,
+                    "status": "Pass"
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 63,
+                    "spec": 65,
+                    "status": "Pass"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "status": "Pass",
+            "samples": [
+              {
+                "id": 1,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 98,
+                    "spec": 90,
+                    "status": "Fail"
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 88,
+                    "spec": 85,
+                    "status": "Fail"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 85,
+                    "spec": 80,
+                    "status": "Fail"
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 77,
+                    "spec": 75,
+                    "status": "Fail"
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "testMethods": [
+                  {
+                    "method": "Method A",
+                    "result": 92,
+                    "spec": 90,
+                    "status": "Fail"
+
+                  },
+                  {
+                    "method": "Method B",
+                    "result": 85,
+                    "spec": 80,
+                    "status": "Fail"
+
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
