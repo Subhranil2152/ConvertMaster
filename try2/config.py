@@ -4,7 +4,7 @@ from urllib.parse import quote
 db = SQLAlchemy()
 
 def init_db(app):
-    password = quote("Bob2152@")
+    password = quote("")
     app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+pymysql://root:{password}@localhost:3306/proj_india'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db.init_app(app)
