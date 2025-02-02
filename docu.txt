@@ -7,7 +7,7 @@ An LRU (Least Recently Used) cache is a type of data structure that stores a lim
 
 Key Features
 Visual Representation: The left section of the app visually shows the LRU cache. You can see how keys are assigned to search values and how their positions change based on usage.
-Search Functionality: The right section is a custom website made by us using MapMyIndia data. Users can search for any state or union territory in India, and the details are displayed using this data.
+Search Functionality: The right section is a custom website made by us called MapMyIndia. Users can search for any state or union territory in India, and the details are displayed using this data.
 Cache Size Configuration: You can set the size of the cache at the beginning, which affects how many items can be stored in the cache at once.
 Search History: The app keeps a history of your searches, showing whether each search was a cache hit (found in the cache) or a database hit (fetched from the database).
 How It Works
