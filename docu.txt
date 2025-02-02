@@ -1,0 +1,41 @@
+How It Works
+Overview
+This web application helps you understand how the Least Recently Used (LRU) cache mechanism works. It shows you how search values are managed in the cache and how the system interacts with the database when a value isn't found in the cache.
+
+What is an LRU Cache?
+An LRU (Least Recently Used) cache is a type of data structure that stores a limited number of items. When the cache reaches its limit, it removes the least recently used item to make space for a new one. This ensures that the most frequently accessed items are kept in the cache, improving the efficiency of data retrieval.
+
+Key Features
+Visual Representation: The left section of the app visually shows the LRU cache. You can see how keys are assigned to search values and how their positions change based on usage.
+Search Functionality: The right section is a custom website made by us using MapMyIndia data. Users can search for any state or union territory in India, and the details are displayed using this data.
+Cache Size Configuration: You can set the size of the cache at the beginning, which affects how many items can be stored in the cache at once.
+Search History: The app keeps a history of your searches, showing whether each search was a cache hit (found in the cache) or a database hit (fetched from the database).
+How It Works
+Setting the Cache Size:
+
+At the beginning, you can configure the size of the cache. This determines how many items can be stored in the cache at once. A larger cache size can store more items but requires more memory.
+Searching for a State or Union Territory:
+
+When you enter a search term, the app first checks the cache.
+If the term is found in the cache, it returns the result immediately.
+If the term is not found, the app fetches the data from the database and updates the cache with this new information.
+Cache Visualization:
+
+The left section shows the current state of the cache, including the keys and their positions.
+As you search, you can see how the cache updates in real-time, with the most recently used items moving to the front.
+Response Time:
+
+When a search term is found in the cache, the response is almost instant.
+When the term is fetched from the database, it takes a bit longer, and this difference is reflected in the search history.
+Technical Aspects of the LRU Cache
+The LRU cache in this application is implemented using a combination of a doubly linked list and a hash table. Here's how these data structures work together:
+
+Doubly Linked List: This is used to maintain the order of elements based on their usage. The most recently used items are moved to the front, and the least recently used items are at the back. This allows for efficient addition and removal of elements.
+Hash Table: This is used for quick access to the cache items. It maps keys to the corresponding nodes in the doubly linked list, allowing for O(1) time complexity for both access and update operations.
+Example Scenario
+Imagine you search for "West Bengal":
+
+If "West Bengal" is already in the cache, the app will quickly display its details.
+If it's not in the cache, the app will fetch the details from the database, add "West Bengal" to the cache, and then display the details.
+Why Use This App?
+This app is perfect for anyone looking to understand how LRU caching works in a practical, visual way. Whether you're a developer, a student, or just curious about caching mechanisms, this app provides a clear and interactive learning experience.
